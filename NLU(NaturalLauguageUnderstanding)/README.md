@@ -34,6 +34,11 @@ The system is made of two subfunctions, customer intent classification and slot 
 ## File in this folder
  
  nlu_preprocessing.ipynb: preprocess the raw dataset into format that's ready to be used to train the models, output data files are saved into cls_data.pickle and weather_seq_data.pickle
+ 
+## Run
+ ```
+ python run.py --config config.yaml
+ ```
   
 
 
