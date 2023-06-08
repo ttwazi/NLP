@@ -30,6 +30,10 @@ The system is made of two subfunctions, customer intent classification and slot 
  How the system created the response according to the input query?
  
   <img width="1102" alt="use case" src="https://github.com/ttwazi/NLP/assets/88044035/83bcea61-a09e-4cfe-aab8-7177a15e86f8">
+ 
+## File in this folder
+ 
+ nlu_preprocessing.ipynb: preprocess the raw dataset into format that's ready to be used to train the models, output data files are saved into cls_data.pickle and weather_seq_data.pickle
   
 
 
