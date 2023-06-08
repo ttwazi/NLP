@@ -1,0 +1,8 @@
+preprocessing:
+  input_convertor: "nn_vectorization"
+  embedding_dim: 100
+  pretrained_embedding: ./data/glove.twitter.27B.100d.mini.txt
+training:
+  model_name: "textcnn"
+  learning_rate:  0.8
+  embedding_dim: 100
